@@ -42,7 +42,7 @@ Always identify the specific document that contains the relevant information for
 Ensure that the GCS URI provided is accurate and directly corresponds to the document used to answer the query.
 Do not use a generic or incorrect URI. Each response must accurately reflect the document that was used to answer the query.
 If multiple documents are relevant, cite the most specific document that directly answers the query.
-Extract the filename from the provided GCS URI and replace the bucket name with rag-test2. For example, if the provided GCS URI is gs://getyellow-in/faqs-categories/the-basics-of-making-a-will, the correct GCS URI should be gs://rag-test2/the-basics-of-making-a-will.
+Extract the filename from the provided GCS URI and replace the bucket name with rag-test2. For example, if the provided GCS URI is gs://asdfsd-in/faqs-categories/the-basics-of-making-a-will, the correct GCS URI should be gs://rag-test2/the-basics-of-making-a-will.
 The filename should be the last part of the provided GCS URI after the last /. Do not include any additional context or path information.
 Ensure that the filename is not URL-encoded. For example, if the filename is Will FAQs, it should be used as is without any encoding.
 If the provided GCS URI includes any path information, ignore it and use only the filename.
