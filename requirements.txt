@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+google-cloud-storage
+faiss-cpu
+numpy
+vertexai
+langchain-google-vertexai
